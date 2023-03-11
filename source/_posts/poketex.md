@@ -4,7 +4,7 @@ date: 2023-03-11 21:25:36
 tags: rust, tui, cli, pokemon
 ---
 
-## Poektex
+## Poketex
 
 一個可以在terminal上跑的寶可夢全國圖鑑
 
