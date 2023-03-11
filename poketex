@@ -20,26 +20,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"www.ckaznable.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.15.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="三速碼農 沒有角 無色 三倍速 跟反制陷阱一樣快">
-<meta property="og:type" content="website">
-<meta property="og:title" content="TSC三速碼農">
-<meta property="og:url" content="https://www.ckaznable.com/index.html">
+    <meta name="description" content="Poektex一個可以在terminal上跑的寶可夢全國圖鑑 我之前有一段時間做了一個可以在terminal上跑的寶可夢圖鑑，最原本的想法是想在上班的時候正大光明查寶可夢的個體值，因為那個時候剛好在瘋寶可夢對戰，所以就做了這個東西出來 Github連結在這: ckaznable&#x2F;poketex 不定時會更新，全國圖鑑有增加也會找時間更新資料，之後可能會想在上面直接增加計算機的功能更方便計">
+<meta property="og:type" content="article">
+<meta property="og:title" content="上班查寶可夢個體利器 - Poketex">
+<meta property="og:url" content="https://www.ckaznable.com/poketex">
 <meta property="og:site_name" content="TSC三速碼農">
-<meta property="og:description" content="三速碼農 沒有角 無色 三倍速 跟反制陷阱一樣快">
+<meta property="og:description" content="Poektex一個可以在terminal上跑的寶可夢全國圖鑑 我之前有一段時間做了一個可以在terminal上跑的寶可夢圖鑑，最原本的想法是想在上班的時候正大光明查寶可夢的個體值，因為那個時候剛好在瘋寶可夢對戰，所以就做了這個東西出來 Github連結在這: ckaznable&#x2F;poketex 不定時會更新，全國圖鑑有增加也會找時間更新資料，之後可能會想在上面直接增加計算機的功能更方便計">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://raw.githubusercontent.com/ckaznable/poketex/master/doc/demo.png">
+<meta property="article:published_time" content="2023-03-11T13:25:36.000Z">
+<meta property="article:modified_time" content="2023-03-11T13:46:17.932Z">
 <meta property="article:author" content="CK Aznable">
-<meta property="article:tag" content="github, 程式筆記">
+<meta property="article:tag" content="rust, tui, cli, pokemon">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/ckaznable/poketex/master/doc/demo.png">
 
 
-<link rel="canonical" href="https://www.ckaznable.com/">
+<link rel="canonical" href="https://www.ckaznable.com/poketex">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-TW","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://www.ckaznable.com/poketex","path":"/poketex","title":"上班查寶可夢個體利器 - Poketex"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>TSC三速碼農</title>
+<title>上班查寶可夢個體利器 - Poketex | TSC三速碼農</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LX34SQNPL"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-8LX34SQNPL","only_pageview":false}</script>
@@ -72,7 +76,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">TSC三速碼農</h1>
+      <p class="site-title">TSC三速碼農</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">Triple Speed Coder</p>
@@ -95,7 +99,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目錄
@@ -108,6 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Poektex"><span class="nav-number">1.</span> <span class="nav-text">Poektex</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Demo"><span class="nav-number">2.</span> <span class="nav-text">Demo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D"><span class="nav-number">3.</span> <span class="nav-text">安裝</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%80%8F%E9%81%8ECargo%E5%AE%89%E8%A3%9D"><span class="nav-number">4.</span> <span class="nav-text">透過Cargo安裝</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95"><span class="nav-number">5.</span> <span class="nav-text">操作方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B5%90%E8%AA%9E"><span class="nav-number">6.</span> <span class="nav-text">結語</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -151,16 +156,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
     <link itemprop="mainEntityOfPage" href="https://www.ckaznable.com/poketex">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -174,13 +180,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | TSC三速碼農">
+      <meta itemprop="name" content="上班查寶可夢個體利器 - Poketex | TSC三速碼農">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/poketex" class="post-title-link" itemprop="url">上班查寶可夢個體利器 - Poketex</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          上班查寶可夢個體利器 - Poketex
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -204,7 +210,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="Poektex"><a href="#Poektex" class="headerlink" title="Poektex"></a>Poektex</h2><p>一個可以在terminal上跑的寶可夢全國圖鑑</p>
+        <h2 id="Poektex"><a href="#Poektex" class="headerlink" title="Poektex"></a>Poektex</h2><p>一個可以在terminal上跑的寶可夢全國圖鑑</p>
 <p>我之前有一段時間做了一個可以在terminal上跑的寶可夢圖鑑，最原本的想法是想在上班的時候正大光明查寶可夢的個體值，因為那個時候剛好在瘋寶可夢對戰，所以就做了這個東西出來</p>
 <p>Github連結在這: <a target="_blank" rel="noopener" href="https://github.com/ckaznable/poketex">ckaznable&#x2F;poketex</a></p>
 <p>不定時會更新，全國圖鑑有增加也會找時間更新資料，之後可能會想在上面直接增加計算機的功能更方便計算xd</p>
@@ -224,7 +230,6 @@
 <p>最後是按<code>q</code>就可以離開圖鑑</p>
 <h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>如果有發現問題可以在github發issue!!</p>
 
-      
     </div>
 
     
@@ -232,83 +237,25 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-tags">
+              <a href="/tags/rust-tui-cli-pokemon/" rel="tag"># rust, tui, cli, pokemon</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/init" rel="prev" title="三速碼農屹立於大地!!">
+                  <i class="fa fa-chevron-left"></i> 三速碼農屹立於大地!!
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://www.ckaznable.com/init">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="CK Aznable">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="TSC三速碼農">
-      <meta itemprop="description" content="三速碼農 沒有角 無色 三倍速 跟反制陷阱一樣快">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | TSC三速碼農">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/init" class="post-title-link" itemprop="url">三速碼農屹立於大地!!</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">發表於</span>
-      
-
-      <time title="創建時間：2023-03-11 13:02:02 / 修改時間：21:46:17" itemprop="dateCreated datePublished" datetime="2023-03-11T13:02:02+08:00">2023-03-11</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>這篇文章是這個部落格的簡介, 這邊主要會放我專案作品的介紹</p>
-<p>這個部落格的特色 沒有顏色 也沒有角 但是有三倍速 跟反制陷阱一樣快</p>
-<p>個人Github: <a target="_blank" rel="noopener" href="https://github.com/ckaznable">https://github.com/ckaznable</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
