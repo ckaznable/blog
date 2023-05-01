@@ -1,7 +1,13 @@
 ---
 title: 上班查寶可夢個體利器 - Poketex
 date: 2023-03-11 21:25:36
-tags: rust, tui, cli, pokemon
+categories:
+  - Github Project
+tags:
+  - rust
+  - tui
+  - cli
+  - pokemon
 ---
 
 ## Poketex
