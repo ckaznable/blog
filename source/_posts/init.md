@@ -8,4 +8,4 @@ tags:
 
 這個部落格的特色 沒有顏色 也沒有角 但是有三倍速 跟反制陷阱一樣快
 
-個人Github: https://github.com/ckaznable
+個人Github: <https://github.com/ckaznable>
