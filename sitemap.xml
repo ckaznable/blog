@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.ckaznable.com/baha-ani-history</loc>
+    <loc>https://blog.ckaznable.com/baha-ani-history</loc>
     
     <lastmod>2023-08-18</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/init</loc>
+    <loc>https://blog.ckaznable.com/init</loc>
     
     <lastmod>2023-08-18</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/pokemon-dmg-calc</loc>
+    <loc>https://blog.ckaznable.com/pokemon-dmg-calc</loc>
     
     <lastmod>2023-08-18</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/poketex</loc>
+    <loc>https://blog.ckaznable.com/poketex</loc>
     
     <lastmod>2023-08-18</lastmod>
     
@@ -39,7 +39,7 @@
   
 
   <url>
-    <loc>https://www.ckaznable.com/</loc>
+    <loc>https://blog.ckaznable.com/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -47,63 +47,63 @@
 
   
   <url>
-    <loc>https://www.ckaznable.com/tags/browser-extension/</loc>
+    <loc>https://blog.ckaznable.com/tags/browser-extension/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/javascript/</loc>
+    <loc>https://blog.ckaznable.com/tags/javascript/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/pokemon/</loc>
+    <loc>https://blog.ckaznable.com/tags/pokemon/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/typescript/</loc>
+    <loc>https://blog.ckaznable.com/tags/typescript/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/vite/</loc>
+    <loc>https://blog.ckaznable.com/tags/vite/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/react/</loc>
+    <loc>https://blog.ckaznable.com/tags/react/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/rust/</loc>
+    <loc>https://blog.ckaznable.com/tags/rust/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/tui/</loc>
+    <loc>https://blog.ckaznable.com/tags/tui/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.ckaznable.com/tags/cli/</loc>
+    <loc>https://blog.ckaznable.com/tags/cli/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -112,7 +112,7 @@
 
   
   <url>
-    <loc>https://www.ckaznable.com/categories/Github-Project/</loc>
+    <loc>https://blog.ckaznable.com/categories/Github-Project/</loc>
     <lastmod>2023-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
