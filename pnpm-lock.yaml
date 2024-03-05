@@ -39,8 +39,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   hexo-theme-next:
-    specifier: ^8.19.1
-    version: 8.19.1
+    specifier: ^8.19.2
+    version: 8.19.2
 
 packages:
 
@@ -772,8 +772,8 @@ packages:
     resolution: {integrity: sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==}
     dev: false
 
-  /hexo-theme-next@8.19.1:
-    resolution: {integrity: sha512-qtILs1j0FpWi4hk+WcdjoOfztvMZZsqe6lg6SAEPJdPMsalLyoo7Jaf2AoDneMadE4hyF0n6daPhHLa3A+5m5A==}
+  /hexo-theme-next@8.19.2:
+    resolution: {integrity: sha512-FyDbKvVRJKT+3yYxkfsXBVXHHPGxNULYfdd+pavcSclonehNwlpq7oPMsTPfO5jaYFuSmNH68TFTqRuXNZ2bHw==}
     dev: false
 
   /hexo-util@2.7.0:
