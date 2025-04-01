@@ -42,8 +42,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0
       hexo-theme-next:
-        specifier: ^8.22.0
-        version: 8.22.0
+        specifier: ^8.23.0
+        version: 8.23.0
 
 packages:
 
@@ -491,8 +491,8 @@ packages:
   hexo-theme-landscape@1.1.0:
     resolution: {integrity: sha512-nszjixBEiEDZjf7glAGbHg0nKGHZdUDwzFVVdRDeu4FeHfGcY5CZNl9sF4vSligjnD8IwFXpDfx5E+GRmNKvWg==}
 
-  hexo-theme-next@8.22.0:
-    resolution: {integrity: sha512-5ygjwme0LUlwmeuyHAll8977PAGbepUzit9N4cxQEW2jDMiEMQDWZj8GaTJ1dMzJ67RXQCIIVOwxlQ8jywYIMg==}
+  hexo-theme-next@8.23.0:
+    resolution: {integrity: sha512-hHRuGRCTF1HyIjvucK3Ylxr2qYB2/bFXdD/IWyPtxcVvkLgn3jcwBq4Zw/ksd0qtKNnLnjrlwWSH9Dyy9Li5mA==}
 
   hexo-util@2.7.0:
     resolution: {integrity: sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==}
@@ -1448,7 +1448,7 @@ snapshots:
 
   hexo-theme-landscape@1.1.0: {}
 
-  hexo-theme-next@8.22.0: {}
+  hexo-theme-next@8.23.0: {}
 
   hexo-util@2.7.0:
     dependencies:
