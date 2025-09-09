@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.ckaznable.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.24.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"找到 ${hits} 個搜索結果（用時 ${time} 毫秒）","hits":"找到 ${hits} 個搜索結果"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.ckaznable.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.25.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"找到 ${hits} 個搜索結果（用時 ${time} 毫秒）","hits":"找到 ${hits} 個搜索結果"}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="Poketex一個可以在terminal上跑的寶可夢全國圖鑑 我之前有一段時間做了一個可以在terminal上跑的寶可夢圖鑑，最原本的想法是想在上班的時候正大光明查寶可夢的個體值，因為那個時候剛好在瘋寶可夢對戰，所以就做了這個東西出來 Github連結在這: ckaznable&#x2F;poketex 不定時會更新，全國圖鑑有增加也會找時間更新資料，之後可能會想在上面直接增加計算機的功能更方便計">
 <meta property="og:type" content="article">
@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://raw.githubusercontent.com/ckaznable/poketex/master/doc/demo.png">
 <meta property="article:published_time" content="2023-03-11T13:25:36.000Z">
-<meta property="article:modified_time" content="2025-08-25T02:12:29.528Z">
+<meta property="article:modified_time" content="2025-09-09T01:30:52.195Z">
 <meta property="article:author" content="CK Aznable">
 <meta property="article:tag" content="pokemon">
 <meta property="article:tag" content="rust">
@@ -227,7 +227,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2025-08-25 10:12:29" itemprop="dateModified" datetime="2025-08-25T10:12:29+08:00">2025-08-25</time>
+      <time title="修改時間：2025-09-09 09:30:52" itemprop="dateModified" datetime="2025-09-09T09:30:52+08:00">2025-09-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
