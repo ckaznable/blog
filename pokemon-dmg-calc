@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.ckaznable.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.25.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"找到 ${hits} 個搜索結果（用時 ${time} 毫秒）","hits":"找到 ${hits} 個搜索結果"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"blog.ckaznable.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.26.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"找到 ${hits} 個搜索結果（用時 ${time} 毫秒）","hits":"找到 ${hits} 個搜索結果"}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="簡單用vite+react做的一個簡易傷害計算機，方便度可能沒有其他計算機那麼方便可以直接選擇寶可夢，算是彈性比較大，各項數值都可以調整的一個計算機 使用連結:  超陽春寶可夢傷害計算機  Github   功能 rwd  手機也能用  pwa  有使用service worker 所以也可以當作一般程式直接安裝  支援數值加成  像是攻擊力加三階段的數值變化等等  可以當努力值配點工具  會計算">
 <meta property="og:type" content="article">
@@ -28,7 +28,7 @@
 <meta property="og:description" content="簡單用vite+react做的一個簡易傷害計算機，方便度可能沒有其他計算機那麼方便可以直接選擇寶可夢，算是彈性比較大，各項數值都可以調整的一個計算機 使用連結:  超陽春寶可夢傷害計算機  Github   功能 rwd  手機也能用  pwa  有使用service worker 所以也可以當作一般程式直接安裝  支援數值加成  像是攻擊力加三階段的數值變化等等  可以當努力值配點工具  會計算">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2023-05-04T12:27:55.000Z">
-<meta property="article:modified_time" content="2025-11-03T09:54:04.484Z">
+<meta property="article:modified_time" content="2025-11-05T02:36:41.582Z">
 <meta property="article:author" content="CK Aznable">
 <meta property="article:tag" content="pokemon">
 <meta property="article:tag" content="react">
@@ -225,7 +225,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2025-11-03 17:54:04" itemprop="dateModified" datetime="2025-11-03T17:54:04+08:00">2025-11-03</time>
+      <time title="修改時間：2025-11-05 10:36:41" itemprop="dateModified" datetime="2025-11-05T10:36:41+08:00">2025-11-05</time>
     </span>
 
   
